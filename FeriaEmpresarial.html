@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Casa de los Frapes</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 420px;
+            width: 100%;
+            padding: 18px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 25px;
+            padding: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        /* HEADER */
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .header img {
+            width: 80px;
+            border-radius: 50%;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        /* MENU */
+        h2 {
+            text-align: center;
+            margin: 20px 0 10px;
+            color: #6c63ff;
+            font-size: 22px;
+        }
+
+        .menu-item {
+            background: #f6f6ff;
+            padding: 14px;
+            border-radius: 18px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+
+        /* ABOUT */
+        .about {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 16px;
+            color: #444;
+        }
+
+        /* BUTTON */
+        .btn {
+            display: block;
+            margin-top: 18px;
+            padding: 16px;
+            background: #6c63ff;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 18px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #5548d9;
+        }
+
+        .promo {
+            margin-top: 12px;
+            text-align: center;
+            font-size: 15px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+
+            <!-- ENCABEZADO -->
+            <div class="header">
+                <img src="logodelaempresa.jpeg" alt="Logo La Casa de los Frapes">
+                <h1>La Casa de los Frapes 🧋</h1>
+            </div>
+
+            <!-- MENU -->
+            <h2>✨ Nuestro Menú ✨</h2>
+
+            <div class="menu-item">
+                <span>Choco Rol</span>
+                <span>$75</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Moka</span>
+                <span>$70</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Oreo</span>
+                <span>$75</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Pingüino</span>
+                <span>$75</span>
+            </div>
+
+            
+            <!-- CONOCENOS -->
+            <div class="about">
+                <h2>💜 Conócenos</h2>
+                <p>
+                    En <strong>La Casa de los Frapes</strong> preparamos frapes deliciosos,
+                    con sabores que te hacen sonreír 😄.
+                    Este proyecto nace con la idea de ofrecer un antojo rico,
+                    accesible y perfecto para cualquier momento.
+                </p>
+            </div>
+
+            <!-- INSTAGRAM -->
+            <a class="btn" href="https://www.instagram.com/frappes_comal?igsh=cWFramU5Z2lqaWFj" target="_blank">
+                📲 Síguenos en Instagram
+            </a>
+
+            <div class="promo">
+                Síguenos y obtén un descuento especial hoy 🔥
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
